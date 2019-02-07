@@ -9,6 +9,9 @@
   "author": "Ethan Smoller",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.2.0"
+    "axios": "^0.18.0",
+    "dotenv": "^6.1.0",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.0.7"
   }
 }
