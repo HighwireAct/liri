@@ -15,8 +15,9 @@ const processInput = (command, argument) => {
             break;
         case "movie-this":
             commands.movieThis(argument);
+            break;
         case "do-what-it-says":
-            commands.doWhatItSays(argument);
+            commands.doWhatItSays(argument, processInput);
             break;
     }
 }
